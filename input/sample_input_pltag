@@ -1,0 +1,33 @@
+$NAME
+Example:23/wsj_2300.mrg-sent_18
+$GOLD_STANDARD
+The Dow 's decline was second in point terms only to the 508-point Black Monday crash that *T*-1 occurred Oct. 19 , 1987
+DT The	NNP Dow	POS 's	NN decline	VBD was	JJ second	IN in	NN point	NNS terms	RB only	TO to	DT the	JJ 508-point	NNP Black	NNP Monday	NN crash	WDT that	VBD occurred	NNP Oct.	CD 19	, ,	CD 1987
+( S^null_x ( NP^x_x ( NP^x_x ( NP^x_x ( DT^x_x The<>) ( NNP^x_x Dow<>)) ( NP^x_x ( POS^x_x 's<>))) ( NP^x_x ( NN^x_x decline<>))) ( VP^x_x ( VP^x_x ( VBD^x_x was<>)) ( ADJP^x_x ( ADJP^x_x ( ADJP^x_x ( JJ^x_x second<>)) ( PP^x_x ( IN^x_x in<>) ( NP^x_x ( NN^x_x point<>) ( NP^x_x ( NNS^x_x terms<>))))) ( PP^x_x ( ADVP^x_x ( RB^x_x only<>)) ( PP^x_x ( TO^x_x to<>) ( NP^x_x ( NP^x_x ( DT^x_x the<>) ( NN^x_x ( JJ^x_x 508-point<>) ( NN^x_x ( NP^x_x ( NNP^x_x Black<>) ( NP^x_x ( NNP^x_x Monday<>))) ( NN^x_x crash<>)))) ( SBAR^x_x ( WHNP^x_x ( WDT^x_x that<>)) ( S^x_x ( NP^x_x ( :^x_x *T*^x_x)) ( VP^x_x ( VP^x_x ( VBD^x_x occurred<>)) ( NP^x_x ( NP^x_x ( NP^x_x ( NP^x_x ( NNP^x_x Oct.<>)) ( CD^x_x 19<>)) ( ,^x_x ,<>)) ( CD^x_x 1987<>)))))))))))
+$PRED_LEXICON
+1	prediction: 	ARG	( NP^null_1 DT^1_null! NN^1_1)
+1	prediction: 	MOD	( ADJP^null_1 ADJP^1_null* ( PP^1_1 TO^1_1))
+1	prediction: 	MOD	( NN^null_1 ( NP^1_1 NNP^1_1) NN^1_null*)
+$LEXICON
+1	's	MOD	( NP^null_x ( NP^x_x ( POS^x_x 's<>)) NP^x_null*)
+1	,	MOD	( NP^null_x NP^x_null* ( ,^x_x ,<>))
+1	19	MOD	( NP^null_x NP^x_null* ( CD^x_x 19<>))
+1	1987	MOD	( NP^null_x NP^x_null* ( CD^x_x 1987<>))
+1	Black	MOD	( NP^null_x ( NNP^x_x Black<>) NP^x_null*)
+1	Dow	MOD	( NP^null_x ( NP^x_x DT^x_null! ( NNP^x_x Dow<>)) NP^x_null*)
+1	Monday	MOD	( NN^null_x ( NP^x_x ( NNP^x_x Monday<>)) NN^x_null*)
+1	NUM-point	MOD	( NN^null_x ( JJ^x_x NUM-point<>) NN^x_null*)
+1	Oct.	MOD	( VP^null_x VP@ARGM-TMP;^x_null* ( NP^x_x ( NNP^x_x Oct.<>)))
+1	The	ARG	( DT^null_x The<>)
+1	crash	ARG	( NP^null_x DT^x_null! ( NN^x_x crash<>))
+1	decline	ARG	( NP^null_x ( NN^x_x decline<>))
+1	in	MOD	( ADJP^null_x ADJP^x_null* ( PP^x_x ( IN^x_x in<>) NP^x_null!))
+1	occurred *T*-1.01	ARG	( S^null_x ( NP^x_x ( :@ARG1;^x_x *T*^x_x)) ( VP^x_x ( VBD^x_x occurred<>)))
+1	only	MOD	( PP^null_x ( ADVP^x_x ( RB^x_x only<>)) PP^x_null*)
+1	point	MOD	( NP^null_x ( NN^x_x point<>) NP^x_null*)
+1	second	ARG	( ADJP^null_x ( JJ^x_x second<>))
+1	terms	ARG	( NP^null_x ( NNS^x_x terms<>))
+1	that	MOD	( NP^null_x NP@ARG1;^x_null* ( SBAR^x_x ( WHNP^x_x ( WDT^x_x that<>)) S^x_null!))
+1	the	ARG	( DT^null_x the<>)
+1	to	MOD	( ADJP^null_x ADJP^x_null* ( PP^x_x ( TO^x_x to<>) NP^x_null!))
+1	was	ARG	( S^null_x NP^x_null! ( VP^x_x ( VP^x_x ( VBD^x_x was<>)) ADJP^x_null!))

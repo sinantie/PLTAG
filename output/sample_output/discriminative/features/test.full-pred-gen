@@ -1,0 +1,9 @@
+Example:23/wsj_2300.mrg-sent_18
+<73:VP:t=19,[ARGM-TMP],79:Oct.:t=19,75:occurred:t=18>
+<59:NP:t=17,[ARG1],67:that:t=17,null>
+<3:*T*:t=-999,[ARG1],59:crash:t=16,75:occurred:t=18>
+<3:*T*:t=-999,[R-ARG1],6:that:t=17,75:occurred:t=18>
+
+(S (NP (NP (NP (DT The) (NN Dow)) (NP (POS 's))) (NP (NN decline))) (VP (VP (VB was)) (ADJP (ADJP (ADJP (JJ second)) (PP (IN in) (NP (NN point) (NP (NN terms))))) (PP (ADVP (RB only)) (PP (TO to) (NP (NP (DT the) (NN (JJ NUM-point) (NN (NP (NN Black) (NP (NN Monday))) (NN crash)))) (SBAR (WHNP (WDT that)) (S (VP (VP (VB occurred)) (NP (NP (NP (NP (NN Oct.)) (CD NUM)) (, ,)) (CD NUM)))))))))))
+[score=-110.9967, evalb F1=100, SRL F1=0.7500, pos=0]
+

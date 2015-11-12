@@ -1,0 +1,49 @@
+log.maxIndLevel	10
+log.msPerLine	1000
+log.file	output/sample_lexicon/log
+log.stdout	true
+log.note	
+log.forcePrint	false
+log.maxPrintErrors	10000
+exec.create	true
+exec.monitor	false
+exec.execDir	output/sample_lexicon
+exec.execPoolDir	
+exec.actualExecPoolDir	
+exec.overwriteExecDir	true
+exec.useStandardExecPoolDirStrategy	false
+exec.printOptionsAndExit	false
+exec.miscOptions	
+exec.addToView	
+exec.recordPath	
+exec.charEncoding	
+exec.jarFiles	
+exec.dontInitializeJars	false
+exec.initializeJarsAfterDirCreation	false
+exec.makeThunk	false
+exec.thunkAutoQueue	false
+exec.thunkPriority	0
+exec.thunkMainClassName	
+exec.thunkJavaOpts	
+exec.thunkUseScala	false
+exec.thunkReqMemory	1024
+exec.dontCatchExceptions	false
+TagCorpusOptions.logFilename	
+TagCorpusOptions.ptbPath	input/ptb_sample/np_bracketing/wsj/
+TagCorpusOptions.examplesInSingleFile	true
+TagCorpusOptions.lexiconFilename	Lexicon_wsj_00_sample
+TagCorpusOptions.goldStandardFilename	GoldStandard_wsj_00_sample
+TagCorpusOptions.outputFilename	single_wsj_00_sample
+TagCorpusOptions.percolTableFilename	resources/percolationTableVera.txt
+TagCorpusOptions.predLexFilename	resources/predlex.txt
+TagCorpusOptions.propBankFilename	input/ptb_sample/propbank/prop.txt
+TagCorpusOptions.nomBankFilename	input/ptb_sample/nombank/nombank.1.0
+TagCorpusOptions.individualFilesPath	
+TagCorpusOptions.moreThanOneFoot	false
+TagCorpusOptions.justMultiWordLexemes	true
+TagCorpusOptions.verbose	false
+TagCorpusOptions.useSemantics	true
+TagCorpusOptions.outputEmptyExamples	true
+TagCorpusOptions.outputIndividualFiles	false
+TagCorpusOptions.startTrack	0
+TagCorpusOptions.endTrack	0

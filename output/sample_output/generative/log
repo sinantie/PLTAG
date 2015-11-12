@@ -1,0 +1,19 @@
+main() {
+  Execution directory: output/sample_output/generative
+  Loading Params {
+    Reading data/params/0221_noCountNoneAdj_final/TreeFrequencies.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/WordFrequencies.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/SuperTagStruct.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/SuperTagFringe.txt.final
+  } [9.5s, cum. 9.6s]
+  Reading lexicons.... {
+    Read 9646 lexical entries and 6410 tree templates.
+  } [2.6s, cum. 12s]
+  Loading Verification Look-ahead Probability table... {
+    VLAP table not found...skipping
+  }
+  Parse Examples {
+    Example 1/0 test: logZ = -11.3390, logVZ = 0, accuracy = 0
+  } [15s, cum. 27s]
+  Execution directory: output/sample_output/generative
+} [27s]

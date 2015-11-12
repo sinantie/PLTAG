@@ -1,0 +1,214 @@
+
+Example:23/wsj_2300.mrg-sent_18
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+
+[evalb F1=85.7143, SRL F1=NaN]
+
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+
+[evalb F1=90.9091, SRL F1=NaN]
+
+<8:NP:t=5,[ARG3, ARG1, ARG2, ARG0, ARG1-for, ARG1-in, ARG2-at, ARG1-over, ARG4, ARG1-upon, ARG1-on, ARG2-to],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<15:S:t=5,[ARG1],null,null>
+
+[evalb F1=100, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+
+[evalb F1=100, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<29:NP:t=7,[ARG2-for, ARGM-DIR, ARG4-in, ARG1, ARGM-DIS, ARGM-EXT, ARG2-in, ARGM-PNC, ARGM-ADV, ARGM-PRD, ARG3-from, ARG0, ARGM-in, ARG0-in, ARGM-LOC, ARG1-at, ARG4-to, ARG2-LOC, ARGM-TMP, ARG2, ARG1-in, ARGM-CAU, ARGM-TM, ARG3-in, ARGM-MNR],28:in:t=7,null>
+<17:VP:t=7,[ARGM-MNR, ARGM-TMP, ARG2-in, ARGM-LOC, ARG2-MNR, ARG2-DIR, ARGM-ADV],28:in:t=7,null>
+
+[evalb F1=86.9565, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<29:NP:t=7,[ARG2-for, ARGM-DIR, ARG4-in, ARG1, ARGM-DIS, ARGM-EXT, ARG2-in, ARGM-PNC, ARGM-ADV, ARGM-PRD, ARG3-from, ARG0, ARGM-in, ARG0-in, ARGM-LOC, ARG1-at, ARG4-to, ARG2-LOC, ARGM-TMP, ARG2, ARG1-in, ARGM-CAU, ARGM-TM, ARG3-in, ARGM-MNR],28:in:t=7,null>
+<17:VP:t=7,[ARGM-MNR, ARGM-TMP, ARG2-in, ARGM-LOC, ARG2-MNR, ARG2-DIR, ARGM-ADV],28:in:t=7,null>
+
+[evalb F1=91.6667, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<29:NP:t=7,[ARG2-for, ARGM-DIR, ARG4-in, ARG1, ARGM-DIS, ARGM-EXT, ARG2-in, ARGM-PNC, ARGM-ADV, ARGM-PRD, ARG3-from, ARG0, ARGM-in, ARG0-in, ARGM-LOC, ARG1-at, ARG4-to, ARG2-LOC, ARGM-TMP, ARG2, ARG1-in, ARGM-CAU, ARGM-TM, ARG3-in, ARGM-MNR],28:in:t=7,null>
+<17:VP:t=7,[ARGM-MNR, ARGM-TMP, ARG2-in, ARGM-LOC, ARG2-MNR, ARG2-DIR, ARGM-ADV],28:in:t=7,null>
+
+[evalb F1=81.4815, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<38:S:t=10,[ARGM-ADV, ARGM-DIS],46:only:t=10,null>
+<39:NP:t=10,[ARG1, ARG0, ARG2],null,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<24:VP:t=10,[ARG3-PNC, ARG2-PNC, ARGM-MNR, ARGM-TMP, ARGM-LOC, ARGM-PNC, ARG2-on, ARGM-ADV, ARGM-PRD, ARG4-to, ARG2-to],null,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<29:NP:t=7,[ARG2-for, ARGM-DIR, ARG4-in, ARG1, ARGM-DIS, ARGM-EXT, ARG2-in, ARGM-PNC, ARGM-ADV, ARGM-PRD, ARG3-from, ARG0, ARGM-in, ARG0-in, ARGM-LOC, ARG1-at, ARG4-to, ARG2-LOC, ARGM-TMP, ARG2, ARG1-in, ARGM-CAU, ARGM-TM, ARG3-in, ARGM-MNR],28:in:t=7,null>
+<17:VP:t=7,[ARGM-MNR, ARGM-TMP, ARG2-in, ARGM-LOC, ARG2-MNR, ARG2-DIR, ARGM-ADV],28:in:t=7,null>
+
+[evalb F1=83.8710, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<38:S:t=10,[ARGM-ADV, ARGM-DIS],46:only:t=10,null>
+<39:NP:t=10,[ARG1, ARG0, ARG2],null,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<24:VP:t=10,[ARG3-PNC, ARG2-PNC, ARGM-MNR, ARGM-TMP, ARGM-LOC, ARGM-PNC, ARG2-on, ARGM-ADV, ARGM-PRD, ARG4-to, ARG2-to],null,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<29:NP:t=7,[ARG2-for, ARGM-DIR, ARG4-in, ARG1, ARGM-DIS, ARGM-EXT, ARG2-in, ARGM-PNC, ARGM-ADV, ARGM-PRD, ARG3-from, ARG0, ARGM-in, ARG0-in, ARGM-LOC, ARG1-at, ARG4-to, ARG2-LOC, ARGM-TMP, ARG2, ARG1-in, ARGM-CAU, ARGM-TM, ARG3-in, ARGM-MNR],28:in:t=7,null>
+<17:VP:t=7,[ARGM-MNR, ARGM-TMP, ARG2-in, ARGM-LOC, ARG2-MNR, ARG2-DIR, ARGM-ADV],28:in:t=7,null>
+
+[evalb F1=70.5882, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+
+[evalb F1=81.0811, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+
+[evalb F1=81.0811, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=14,[ARG1],null,null>
+
+[evalb F1=80, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=14,[ARG1],null,null>
+
+[evalb F1=60.4651, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=14,[ARG1],null,null>
+
+[evalb F1=86.3636, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<59:NP:t=17,[ARG1, ARG0, ARG2, ARG3-for],67:that:t=17,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=13,[ARG1],null,null>
+
+[evalb F1=69.3878, SRL F1=NaN]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<59:NP:t=17,[ARG1, ARG0, ARG2, ARG3-for],67:that:t=17,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=13,[ARG1],null,null>
+<3:*T*:t=-999,[ARG1],59:crash:t=16,75:occurred:t=18>
+<3:*T*:t=-999,[R-ARG1],6:that:t=17,75:occurred:t=18>
+
+[evalb F1=88.8889, SRL F1=1]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<73:VP:t=19,[ARGM-TMP],79:Oct.:t=19,75:occurred:t=18>
+<59:NP:t=17,[ARG1, ARG0, ARG2, ARG3-for],67:that:t=17,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=13,[ARG1],null,null>
+<3:*T*:t=-999,[ARG1],59:crash:t=16,75:occurred:t=18>
+<3:*T*:t=-999,[R-ARG1],6:that:t=17,75:occurred:t=18>
+
+[evalb F1=89.6552, SRL F1=0.8571]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<73:VP:t=19,[ARGM-TMP],79:Oct.:t=19,75:occurred:t=18>
+<59:NP:t=17,[ARG1, ARG0, ARG2, ARG3-for],67:that:t=17,null>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<77:NP:t=20,[ARGM-TMP],82:NUM:t=20,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=13,[ARG1],null,null>
+<3:*T*:t=-999,[ARG1],59:crash:t=16,75:occurred:t=18>
+<3:*T*:t=-999,[R-ARG1],6:that:t=17,75:occurred:t=18>
+
+[evalb F1=90.0000, SRL F1=0.8571]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<85:NP:t=21,[ARG1, ARG2, ARG0],null,null>
+<59:NP:t=17,[ARG1, ARG0, ARG2, ARG3-for],67:that:t=17,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<3:*T*:t=-999,[ARG1],59:crash:t=16,75:occurred:t=18>
+<3:*T*:t=-999,[R-ARG1],6:that:t=17,75:occurred:t=18>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<73:VP:t=19,[ARGM-TMP],79:Oct.:t=19,75:occurred:t=18>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<77:NP:t=20,[ARGM-TMP],82:NUM:t=20,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=13,[ARG1],null,null>
+<15:S:t=21,[ARG3, ARG2-as, ARG1, ARG0, ARG2, ARGM-ADV],15:was:t=5,null>
+
+[evalb F1=90.0000, SRL F1=0.8571]
+
+<21:ADJP:t=5,[ARG1],20:was:t=5,null>
+<59:NP:t=17,[ARG1, ARG0, ARG2, ARG3-for],67:that:t=17,null>
+<29:NP:t=7,[ARGM-MNR, ARGM-TMP, ARG0, ARG2, ARG2-in, ARGM-LOC],28:in:t=7,null>
+<3:*T*:t=-999,[ARG1],59:crash:t=16,75:occurred:t=18>
+<3:*T*:t=-999,[R-ARG1],6:that:t=17,75:occurred:t=18>
+<8:NP:t=5,[ARG1, ARG0, ARG2],8:decline:t=4,null>
+<73:VP:t=19,[ARGM-TMP],79:Oct.:t=19,75:occurred:t=18>
+<12:NP:t=3,[ARG1-to, ARG1, ARGM-TMP, ARG0, ARG2, ARGM-LOC],11:'s:t=3,null>
+<44:NP:t=11,[ARG2-to, ARG3-to, ARG0],43:to:t=11,null>
+<45:NP:t=12,[ARG1, ARG0, ARG1-for],null,null>
+<77:NP:t=20,[ARGM-TMP],82:NUM:t=20,null>
+<46:DT:t=12,[ARG1, ARG0, ARG2],49:the:t=12,null>
+<47:NN:t=13,[ARG1],null,null>
+<82:NP:t=22,[ARGM-TMP],88:NUM:t=22,null>
+
+[evalb F1=90.3226, SRL F1=0.7500]
+
+null

@@ -1,0 +1,2 @@
+convertToElementaryStringTrees	0.015s (0.007s x 2)
+reconstructAndBuildLexicon	0.061s (0.03s x 2)

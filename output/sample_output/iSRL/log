@@ -1,0 +1,34 @@
+main() {
+  Execution directory: output/sample_output/iSRL
+  Loading Params {
+    Reading data/params/0221_noCountNoneAdj_final/TreeFrequencies.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/WordFrequencies.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/SuperTagStruct.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/SuperTagFringe.txt.final
+  } [10s, cum. 10s]
+  Reading lexicons.... {
+    ERROR: invalid entry: 0	NN^null_1))
+    ERROR: invalid entry: 1	NP^null_1))
+    ERROR: invalid entry: 1	NP^null_2))
+    ERROR: invalid entry: 0	ADJP^null_1))
+    Read 9646 lexical entries and 6948 tree templates.
+  } [7.0s, cum. 17s]
+  Loading Verification Look-ahead Probability table... {
+    VLAP table not found...skipping
+  }
+  Loading argument classifier model and feature indexers...
+  Reading examples {
+    (1 examples and 1 propositions so far)
+    Succesfully identified 1 identical sentences out of 1 (CoNLL) and 1 (Penn Treebank)
+    Read a total of 1 examples and 1 propositions
+  }
+  Parse Examples {
+    Reading SRL triple lookup table and vectors {
+      SRL triple lookup table does not exist...skipping.
+    }
+    Example 1/1 test: logZ = -4.8519, logVZ = 0, accuracy = 0.7500
+  } [50s, cum. 1m9s]
+  Inference complexity: 0/ << 0~0 >> /0 (1)
+  results: logZ = -4.8519, logVZ = 0, accuracy = 0.7500
+} [1m9s]
+Execution directory: output/sample_output/iSRL

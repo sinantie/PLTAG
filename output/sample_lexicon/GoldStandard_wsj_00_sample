@@ -1,0 +1,10 @@
+Example_00/wsj_0001.mrg-sent_0
+Pierre Vinken , 61 years old , will join the board as a nonexecutive director Nov. 29
+NNP Pierre	NNP Vinken	, ,	CD 61	NNS years	JJ old	, ,	MD will	VB join	DT the	NN board	IN as	DT a	JJ nonexecutive	NN director	NNP Nov.	CD 29
+( S^null_x ( NP^x_x ( NP^x_x ( NNP^x_x Pierre<>) ( NP^x_x ( NNP^x_x Vinken<>))) ( APP^x_x ( ,^x_x ,<>) ( ADJP^x_x ( NP^x_x ( CD^x_x 61<>) ( NP^x_x ( NNS^x_x years<>))) ( ADJP^x_x ( JJ^x_x old<>))) ( ,^x_x ,<>))) ( VP^x_x ( MD^x_x will<>) ( VP^x_x ( VP^x_x ( VP^x_x ( VP^x_x ( VB^x_x join<>)) ( NP^x_x ( DT^x_x the<>) ( NN^x_x board<>))) ( PP^x_x ( IN^x_x as<>) ( NP^x_x ( DT^x_x a<>) ( NN^x_x ( JJ^x_x nonexecutive<>) ( NN^x_x director<>))))) ( NP^x_x ( NP^x_x ( NNP^x_x Nov.<>)) ( CD^x_x 29<>)))))
+
+Example_00/wsj_0001.mrg-sent_1
+Mr. Vinken is chairman of Elsevier N.V. , the Dutch publishing group
+NNP Mr.	NNP Vinken	VBZ is	NN chairman	IN of	NNP Elsevier	NNP N.V.	, ,	DT the	NNP Dutch	VBG publishing	NN group
+( S^null_x ( NP^x_x ( NNP^x_x Mr.<>) ( NP^x_x ( NNP^x_x Vinken<>))) ( VP^x_x ( VP^x_x ( VBZ^x_x is<>)) ( NP^x_x ( NP^x_x ( NN^x_x chairman<>)) ( PP^x_x ( IN^x_x of<>) ( NP^x_x ( NP^x_x ( NNP^x_x Elsevier<>) ( NP^x_x ( NNP^x_x N.V.<>))) ( APP^x_x ( ,^x_x ,<>) ( NP^x_x ( DT^x_x the<>) ( NN^x_x ( NNP^x_x Dutch<>) ( NN^x_x ( VBG^x_x publishing<>) ( NN^x_x group<>))))))))))
+

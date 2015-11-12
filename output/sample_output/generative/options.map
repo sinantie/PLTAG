@@ -1,0 +1,148 @@
+Options.numThreads	2
+Options.beamMin	400
+Options.beamEntry	400
+Options.beamProp	8
+Options.pruneStrategyIsProp	false
+Options.startSec	0
+Options.endSec	23
+Options.startDoc	0
+Options.endDoc	99
+Options.startExample	0
+Options.endExample	2147483647
+Options.nBest	250
+Options.defaultLexiconSize	9671
+Options.maxNumOfExamples	2147483647
+Options.timeOutStage1	300000
+Options.timeOutStage2	60000
+Options.silentMode	false
+Options.aggregate	true
+Options.fullLex	true
+Options.goldPosTags	false
+Options.posOnly	false
+Options.combineNNVBcats	true
+Options.treeFamilies	false
+Options.countNoneAdj	false
+Options.useProbabilityModel	false
+Options.calculateMostProbableTree	false
+Options.semanticsModel	oracle
+Options.useSemantics	false
+Options.vlapPath	
+Options.printChart	false
+Options.printIncrementalDeriv	false
+Options.timeProfile	false
+Options.lexicon	data/lexicon/Lexicon_wsj_0221_noSemantics_files/Lexicon_wsj_0221_noSemantics-Freq-Parser-tag
+Options.predLexicon	data/lexicon/Lexicon_wsj_0221_noSemantics_files/Lexicon_wsj_0221_noSemantics-Freq-Parser-prediction
+Options.listOfFreqWords	data/wordsFreqOverFive.txt
+Options.inputPaths	input/sample_input_pltag
+Options.useExamplesOnlyList	
+Options.examplesInSingleFile	true
+Options.maxWordLength	2147483647
+Options.exactWordLength	2147483647
+Options.estimateProcDifficulty	true
+Options.evaluateIncrementalDependencies	false
+Options.outputIncrementalDependencies	false
+Options.outputCompletedIncrementalDependencies	false
+Options.evaluateIncrementalEvalb	false
+Options.freqBaseline	false
+Options.srlBaselineTopNDepRels	20
+Options.applyConllHeuristics	false
+Options.inputDundeeCorpus	false
+Options.inputType	plain
+Options.interactiveMode	true
+Options.train	false
+Options.treeFrequencies	data/params/0221_noCountNoneAdj_final/TreeFrequencies.txt.final
+Options.wordFrequencies	data/params/0221_noCountNoneAdj_final/WordFrequencies.txt.final
+Options.superTagStruct	data/params/0221_noCountNoneAdj_final/SuperTagStruct.txt.final
+Options.superTagFringe	data/params/0221_noCountNoneAdj_final/SuperTagFringe.txt.final
+Options.estimateInterpolationFactors	false
+Options.outputParams	false
+Options.outputParamsTxt	false
+Options.outputExampleFreq	10
+Options.outputFullPred	true
+Options.verbose	false
+Options.C	10.0
+Options.eps	0.01
+Options.argumentLabellerModel	
+Options.argumentIdentifierModel	
+Options.featureIndexers	
+Options.trainClassifiers	false
+Options.extractSrlFeatures	false
+Options.argumentLabellerFeatureVectorsFile	
+Options.argumentIdentifierFeatureVectorsFile	
+Options.useClassifiers	false
+Options.baselineSemanticsModel	heuristicsIdentification
+Options.maltParserModel	
+Options.incrAnalysesPath	
+Options.incrAnalysesFeaturesPath	
+Options.oracleIncrAnalysesPath	
+Options.oracleIncrAnalysesFeaturesPath	
+Options.discriminativeFeatureIndexers	
+Options.extendIndexers	false
+Options.saveIncrAnalyses	false
+Options.readExamplesInBatches	false
+Options.saveIncrAnalysesFeatures	false
+Options.maxNumOfSentencesIncrAnalyses	100000
+Options.stagedParamsFile	
+Options.numIters	10
+Options.sentenceLevel	false
+Options.miniBatches	false
+Options.miniBatchSize	30
+Options.convergePass	1
+Options.stepSizeReductionPower	0.5
+Options.initTemperature	1.0
+Options.initType	uniformz
+Options.initSmoothing	0.0
+Options.p	0.01
+Options.tolerance	0.001
+Options.initNoise	1.0
+Options.initRandom	1
+Options.learningScheme	incremental
+Options.offsetBaselineScore	1.0
+Options.offsetModelScore	1.0
+Options.usePrefixBaselineFeature	false
+Options.useWordBaselineFeature	false
+Options.useSyntacticFeatures	false
+Options.useFringeFeatures	false
+Options.useGlobalSyntacticFeatures	false
+Options.useSemanticsFeatures	false
+Options.useSrlFeatures	false
+Options.useSrlPosFeatures	false
+Options.useLemmatisedSrlFeatures	false
+Options.useSlowReranker	false
+Options.semanticsType	quantum
+Options.semanticsLookupTable	
+Options.semanticsLookupTableVectors	
+Options.pruneUsingScores	false
+Options.parserType	generative
+Options.serverMode	false
+Options.port	4446
+log.maxIndLevel	10
+log.msPerLine	1000
+log.file	output/sample_output/generative/log
+log.stdout	true
+log.note	
+log.forcePrint	false
+log.maxPrintErrors	10000
+exec.create	true
+exec.monitor	false
+exec.execDir	output/sample_output/generative
+exec.execPoolDir	
+exec.actualExecPoolDir	
+exec.overwriteExecDir	true
+exec.useStandardExecPoolDirStrategy	false
+exec.printOptionsAndExit	false
+exec.miscOptions	
+exec.addToView	
+exec.recordPath	
+exec.charEncoding	
+exec.jarFiles	
+exec.dontInitializeJars	false
+exec.initializeJarsAfterDirCreation	false
+exec.makeThunk	false
+exec.thunkAutoQueue	false
+exec.thunkPriority	0
+exec.thunkMainClassName	
+exec.thunkJavaOpts	
+exec.thunkUseScala	false
+exec.thunkReqMemory	1024
+exec.dontCatchExceptions	false

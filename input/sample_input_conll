@@ -1,0 +1,26 @@
+1	The	the	the	DT	DT	_	_	2	2	NMOD	NMOD	_	_	_	_	_	_
+2	Dow	dow	dow	NNP	NNP	_	_	4	4	NMOD	NMOD	_	_	A1	_	_	_
+3	's	's	's	POS	POS	_	_	2	2	SUFFIX	SUFFIX	_	_	_	_	_	_
+4	decline	decline	decline	NN	NN	_	_	5	5	SBJ	SBJ	Y	decline.01	_	_	_	_
+5	was	be	be	VBD	VBD	_	_	0	0	ROOT	ROOT	_	_	_	_	_	_
+6	second	second	second	JJ	JJ	_	_	5	5	PRD	PRD	_	_	_	A2	_	_
+7	in	in	in	IN	IN	_	_	6	5	AMOD	ADV	_	_	_	_	_	_
+8	point	point	point	NN	NN	_	_	9	9	NMOD	NMOD	_	_	_	A1	_	_
+9	terms	terms	terms	NNS	NNS	_	_	7	7	PMOD	PMOD	Y	term.05	_	_	_	_
+10	only	only	only	RB	RB	_	_	11	11	PMOD	PMOD	_	_	_	_	_	_
+11	to	to	to	TO	TO	_	_	6	5	AMOD	ADV	_	_	_	_	_	_
+12	the	the	the	DT	DT	_	_	18	15	NMOD	NMOD	_	_	_	_	_	_
+13	508	508	508	CD	CD	_	_	15	15	HMOD	HMOD	_	_	_	_	_	_
+14	-	-	-	HYPH	HYPH	_	_	13	13	HYPH	HYPH	_	_	_	_	_	_
+15	point	point	point	NN	NN	_	_	18	11	NMOD	PMOD	_	_	_	_	_	_
+16	Black	black	black	NNP	NNP	_	_	17	17	NAME	NAME	_	_	_	_	_	_
+17	Monday	monday	monday	NNP	NNP	_	_	18	18	NMOD	NMOD	_	_	_	_	A1	_
+18	crash	crash	crash	NN	NN	_	_	11	5	PMOD	PRD	Y	crash.01	_	_	_	A1
+19	that	that	that	WDT	WDT	_	_	20	20	SBJ	SBJ	_	_	_	_	_	R-A1
+20	occurred	occur	occur	VBD	VBD	_	_	18	18	NMOD	NMOD	Y	occur.01	_	_	_	_
+21	Oct.	oct.	oct.	NNP	NNP	_	_	24	24	NMOD	NMOD	_	_	_	_	_	_
+22	19	19	19	CD	CD	_	_	21	21	NMOD	NMOD	_	_	_	_	_	_
+23	,	,	,	,	,	_	_	24	24	P	P	_	_	_	_	_	_
+24	1987	1987	1987	CD	CD	_	_	20	20	TMP	TMP	_	_	_	_	_	AM-TMP
+25	.	.	.	.	.	_	_	5	5	P	P	_	_	_	_	_	_
+

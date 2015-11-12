@@ -1,0 +1,5 @@
+   2 ARG	( NP^null_1 DT^1_null! NN^1_1)
+   1 MOD	( NP^null_1 NP^1_null* ( APP^1_1 ,^1_null! ADJP^1_1))
+   1 MOD	( NP^null_1 NP@ARG0;^1_null* ( APP^1_1 ,^1_null! ( NP^1_1 DT^1_null! NN^1_1)))
+   1 MOD	( ADJP^null_1 ( NP^1_1 NNS^1_1) ADJP^1_null*)
+   1 ARG	( S^null_1 NP@ARG0;^1_null! VP^1_1)

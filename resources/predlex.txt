@@ -1,0 +1,6 @@
+either	or
+Either	or
+Neither	nor
+neither	nor
+both	and
+Both	and

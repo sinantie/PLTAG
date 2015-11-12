@@ -1,0 +1,28 @@
+main() {
+  Execution directory: output/sample_output/discriminative/features
+  Loading Params {
+    Reading data/params/0221_noCountNoneAdj_final/TreeFrequencies.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/WordFrequencies.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/SuperTagStruct.txt.final
+    Reading data/params/0221_noCountNoneAdj_final/SuperTagFringe.txt.final
+  } [9.7s, cum. 9.8s]
+  Loading argument classifier model and feature indexers...
+  Will save oracle incremental analyses features...
+  Reading examples {
+    (1 examples and 1 propositions so far)
+    Succesfully identified 1 identical sentences out of 1 (CoNLL) and 1 (Penn Treebank)
+    Read a total of 1 examples and 1 propositions
+  }
+  Parse Examples {
+    Reading SRL triple lookup table and vectors {
+      SRL triple lookup table does not exist...skipping.
+    }
+    Example 1/1 test: logZ = -5.0453, evalb F1 = 1, srl F1 = 0.7500
+  }
+  Saving remaining analyses to disk...
+  Saving oracle incremental analyses features to disk...
+  Saving incremental analyses features indexers to disk...
+  Inference complexity: 0/ << 0~0 >> /0 (1)
+  results: logZ = -5.0453, evalb F1 = 1, srl F1 = 0.7500
+} [11s]
+Execution directory: output/sample_output/discriminative/features

@@ -1,0 +1,15 @@
+main() {
+  Execution directory: output/train_generative
+  Reading examples {
+    (1 examples so far)
+    (2 examples so far)
+    Read a total of 2 examples
+  }
+  Parse Examples {
+ {
+        ERROR: Error during parsing: Example:00/wsj_0001.mrg-sent_0
+ERROR: Error during parsing: Example:00/wsj_0001.mrg-sent_1
+  }
+  Inference complexity: Infinity/ << NaN~NaN >> /-Infinity (0)
+}
+Execution directory: output/train_generative

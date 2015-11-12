@@ -1,0 +1,148 @@
+Options.numThreads	2
+Options.beamMin	350
+Options.beamEntry	350
+Options.beamProp	8
+Options.pruneStrategyIsProp	false
+Options.startSec	0
+Options.endSec	23
+Options.startDoc	0
+Options.endDoc	99
+Options.startExample	0
+Options.endExample	2147483647
+Options.nBest	250
+Options.defaultLexiconSize	9671
+Options.maxNumOfExamples	200
+Options.timeOutStage1	120000
+Options.timeOutStage2	120000
+Options.silentMode	false
+Options.aggregate	true
+Options.fullLex	false
+Options.goldPosTags	true
+Options.posOnly	false
+Options.combineNNVBcats	true
+Options.treeFamilies	false
+Options.countNoneAdj	false
+Options.useProbabilityModel	false
+Options.calculateMostProbableTree	false
+Options.semanticsModel	oracle
+Options.useSemantics	true
+Options.vlapPath	
+Options.printChart	false
+Options.printIncrementalDeriv	false
+Options.timeProfile	false
+Options.lexicon	data/lexicon/Lexicon_wsj_0221_withSemantics_tracesFix_files/Lexicon_wsj_0221_withSemantics_tracesFix-Freq-Parser-tag
+Options.predLexicon	data/lexicon/Lexicon_wsj_0221_withSemantics_tracesFix_files/Lexicon_wsj_0221_withSemantics_tracesFix-Freq-Parser-prediction
+Options.listOfFreqWords	data/wordsFreqOverFive.txt
+Options.inputPaths	input/sample_input_pltag input/sample_input_conll input/sample_input_conll
+Options.useExamplesOnlyList	
+Options.examplesInSingleFile	true
+Options.maxWordLength	2147483647
+Options.exactWordLength	2147483647
+Options.estimateProcDifficulty	false
+Options.evaluateIncrementalDependencies	false
+Options.outputIncrementalDependencies	false
+Options.outputCompletedIncrementalDependencies	false
+Options.evaluateIncrementalEvalb	false
+Options.freqBaseline	false
+Options.srlBaselineTopNDepRels	20
+Options.applyConllHeuristics	true
+Options.inputDundeeCorpus	false
+Options.inputType	pltag
+Options.interactiveMode	false
+Options.train	false
+Options.treeFrequencies	data/params/0221_noCountNoneAdj_final/TreeFrequencies.txt.final
+Options.wordFrequencies	data/params/0221_noCountNoneAdj_final/WordFrequencies.txt.final
+Options.superTagStruct	data/params/0221_noCountNoneAdj_final/SuperTagStruct.txt.final
+Options.superTagFringe	data/params/0221_noCountNoneAdj_final/SuperTagFringe.txt.final
+Options.estimateInterpolationFactors	false
+Options.outputParams	false
+Options.outputParamsTxt	false
+Options.outputExampleFreq	10
+Options.outputFullPred	true
+Options.verbose	false
+Options.C	10.0
+Options.eps	0.01
+Options.argumentLabellerModel	data/isrl_classifiers/bilexical_no_sense_opPath.labeller.tuned.model
+Options.argumentIdentifierModel	data/isrl_classifiers/bilexical_no_sense_opPath.identifier.weight.tuned.model
+Options.featureIndexers	data/isrl_classifiers/bilexical_no_sense_syntactic_opPath.indexers
+Options.trainClassifiers	false
+Options.extractSrlFeatures	false
+Options.argumentLabellerFeatureVectorsFile	
+Options.argumentIdentifierFeatureVectorsFile	
+Options.useClassifiers	true
+Options.baselineSemanticsModel	heuristicsIdentification
+Options.maltParserModel	
+Options.incrAnalysesPath	
+Options.incrAnalysesFeaturesPath	output/sample_output/discriminative/features/incrAnalysesFeatures_wsj_0221_sample_sentenceLevel
+Options.oracleIncrAnalysesPath	
+Options.oracleIncrAnalysesFeaturesPath	
+Options.discriminativeFeatureIndexers	output/sample_output/discriminative/features/featureIndexers_sample_sentenceLevel
+Options.extendIndexers	true
+Options.saveIncrAnalyses	false
+Options.readExamplesInBatches	false
+Options.saveIncrAnalysesFeatures	true
+Options.maxNumOfSentencesIncrAnalyses	200
+Options.stagedParamsFile	
+Options.numIters	10
+Options.sentenceLevel	false
+Options.miniBatches	false
+Options.miniBatchSize	30
+Options.convergePass	1
+Options.stepSizeReductionPower	0.5
+Options.initTemperature	1.0
+Options.initType	uniformz
+Options.initSmoothing	0.0
+Options.p	0.01
+Options.tolerance	0.001
+Options.initNoise	1.0
+Options.initRandom	1
+Options.learningScheme	incremental
+Options.offsetBaselineScore	1.0
+Options.offsetModelScore	1.0
+Options.usePrefixBaselineFeature	false
+Options.useWordBaselineFeature	false
+Options.useSyntacticFeatures	false
+Options.useFringeFeatures	false
+Options.useGlobalSyntacticFeatures	true
+Options.useSemanticsFeatures	false
+Options.useSrlFeatures	false
+Options.useSrlPosFeatures	false
+Options.useLemmatisedSrlFeatures	false
+Options.useSlowReranker	false
+Options.semanticsType	quantum
+Options.semanticsLookupTable	
+Options.semanticsLookupTableVectors	
+Options.pruneUsingScores	false
+Options.parserType	oracle
+Options.serverMode	false
+Options.port	4446
+log.maxIndLevel	10
+log.msPerLine	1000
+log.file	output/sample_output/discriminative/features/log
+log.stdout	true
+log.note	
+log.forcePrint	false
+log.maxPrintErrors	10000
+exec.create	true
+exec.monitor	false
+exec.execDir	output/sample_output/discriminative/features
+exec.execPoolDir	
+exec.actualExecPoolDir	
+exec.overwriteExecDir	true
+exec.useStandardExecPoolDirStrategy	false
+exec.printOptionsAndExit	false
+exec.miscOptions	
+exec.addToView	
+exec.recordPath	
+exec.charEncoding	
+exec.jarFiles	
+exec.dontInitializeJars	false
+exec.initializeJarsAfterDirCreation	false
+exec.makeThunk	false
+exec.thunkAutoQueue	false
+exec.thunkPriority	0
+exec.thunkMainClassName	
+exec.thunkJavaOpts	
+exec.thunkUseScala	false
+exec.thunkReqMemory	1024
+exec.dontCatchExceptions	false

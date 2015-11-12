@@ -1,0 +1,4 @@
+Example_23/wsj_2300.mrg-sent_18
+(S (NP (NP (NP (DT The) (NN Dow)) (NP (POS 's))) (NP (NN decline))) (VP (VP (VB was)) (ADJP (ADJP (ADJP (ADJP (JJ second)) (PP (PP (IN in) (NP (NN point))) (NP (NN terms)))) (RB only)) (PP (TO to) (NP (NP (DT the) (NN (JJ NUM-point) (NN (NP (NN Black) (NP (NN Monday))) (NN crash)))) (SBAR (WHNP (WDT that)) (S (VP (VP (VB occurred)) (NP (NP (NP (NP (NN Oct.)) (CD NUM)) (, ,)) (CD NUM))))))))))
+[score=-106.7414, evalb F1=90.3226]
+

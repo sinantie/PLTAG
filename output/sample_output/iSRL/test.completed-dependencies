@@ -1,0 +1,17 @@
+
+Example:23/wsj_2300.mrg-sent_18
+<occurred,[ARG1],crash>	id: 18	word:VB occurred
+<occurred,[R-ARG1],that>	id: 18	word:VB occurred
+<occurred,[ARGM-TMP],Oct.>	id: 19	word:NN Oct.
+<occurred,[ARG1],crash>	id: 19	word:NN Oct.
+<occurred,[R-ARG1],that>	id: 19	word:NN Oct.
+<occurred,[ARGM-TMP],Oct.>	id: 20	word:CD NUM
+<occurred,[ARG1],crash>	id: 20	word:CD NUM
+<occurred,[R-ARG1],that>	id: 20	word:CD NUM
+<occurred,[ARG1],crash>	id: 21	word:, ,
+<occurred,[R-ARG1],that>	id: 21	word:, ,
+<occurred,[ARGM-TMP],Oct.>	id: 21	word:, ,
+<occurred,[ARG1],crash>	id: 22	word:CD NUM
+<occurred,[R-ARG1],that>	id: 22	word:CD NUM
+<occurred,[ARGM-TMP],Oct.>	id: 22	word:CD NUM
+null

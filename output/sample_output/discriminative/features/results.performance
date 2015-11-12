@@ -1,0 +1,54 @@
+logZ	-5.0453
+evalb F1	1
+srl F1	0.7500
+
+evalb accuracy scores
+---------------
+Precision (sent ave 100.0, evalb 100.0)
+Recall (sent ave 100.0, evalb 100.0)
+F1 (sent ave 100.0, evalb 100.0)
+Exact: 100.0
+N: 1
+
+
+
+SRL accuracy scores
+----Predicate Scores----
+Precision 1
+Recall 1
+F1 1
+----Argument Scores----
+Precision 0.6667
+Recall 0.6667
+F1 0.6667
+
+----Combined Scores----
+Precision 0.7500
+Recall 0.7500
+F1 0.7500
+Total number of predicates: 1.0
+Total number of arguments: 4.0
+Total number of predicates + arguments: 5.0
+Total number of propositions: 1 (out of 1 gold) 
+Total number of examples processed successfully: 1
+
+
+(gold freqs)   1   0    1      1        
+ (cor/total)  A1  A2 R-A1 AM-TMP (NONE) 
+          A1 1/1   0    0      0      0 
+          A2   0 0/0    0      0      0 
+        R-A1   0   0  1/1      0      0 
+      AM-TMP   0   0    0    0/1      0 
+      (NONE)   0   0    0      0        
+
+
+
+Example_name
+predicate: gold argument - predicted argument
+
+Example:23/wsj_2300.mrg-sent_18
+occur.01: 1987@AM-TMP:t=21 - Oct.@AM-TMP:t=18, 
+
+
+
+Total accuracy: 1

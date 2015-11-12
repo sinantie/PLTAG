@@ -1,0 +1,2 @@
+wsj/00/wsj_0001.mrg 0 8 gold join.01 ----- 0:2-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1 11:1-ARGM-PRD 15:1-ARGM-TMP
+wsj/00/wsj_0001.mrg 1 10 gold publish.01 ----- 10:0-rel 11:0-ARG0

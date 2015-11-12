@@ -1,0 +1,42 @@
+* FEATURES *
+
+- Extract PLTAG Lexicon and Gold standard PLTAG trees
+
+- Training
+	- Generative - PLTAG model
+	- Discriminative - Save Incremental Analyses Features (slow - memory-hungry)
+	- Discriminative - Train Offline Reranker (Perceptron - 0-1 loss function)
+	
+- Parsing
+	- Model
+		- Generative - no semantics lexicon
+		- Generative - with semantics lexicon
+		- Discriminative Reranker - with semantics lexicon ONLY
+	
+	- Mode
+		- Batch - full sentence
+		- Batch - incremental (Syntactic surprisal, 1-best prefix tree/iSRL triples per word)
+		- Interactive - shell (Incremental, as above: Syntactic surprisal, 1-best prefix tree/iSRL triples per word)
+		- Interactive - web service (Incremental, as above: Syntactic surprisal, 1-best prefix tree/iSRL triples per word)
+	
+	- Input (with gold POS-tags, predicted Stanford POS-tags, predicted PLTG POS-tags)
+		- WSJ-PLTAG trees
+		- Dundee
+		- POS-tagged
+		- Plain
+		
+	- Output
+		- Full constituency binarised PLTAG trees
+		- Incremental prefix trees
+		- iSRL - all (in)complete SRL triples
+		- iSRL - Incremental (in)complete SRL triples
+		- Syntactic Surprisal scores
+		- (Experimental) Semantic Surprisal scores - Discriminative reranker model only
+		
+	- Evaluation
+		- Full Tree evalb and sentence F1 scores (WSJ PLTAG gold standard input)
+		- Incremental prefix trees (Sangati and Keller, 2013)
+		- Full sentence SRL verb-predicate accuracy using gold standard PLTAG lexicon (CoNLL 2009 gold standard input)
+		- Incremental iSRL scores for (in)complete triples using gold standard PLTAG lexicon (UPS and CISS, Konstas et al., 2014)
+		- Full sentence SRL verb-predicate accuracy using full PLTAG lexicon (CoNLL 2009 gold standard input)
+		- Incremental iSRL scores for (in)complete triples using full PLTAG lexicon (UPS and CISS, Konstas et al., 2014)

@@ -1,0 +1,71 @@
+main() {
+  Execution directory: output/sample_lexicon
+  ===========
+  Number of wrong trees (track = 0; processed 10 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 10 docs): 0
+  Number of successfully converted trees(track = 0; processed 10 docs): 2
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 20 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 20 docs): 0
+  Number of successfully converted trees(track = 0; processed 20 docs): 0
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 30 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 30 docs): 0
+  Number of successfully converted trees(track = 0; processed 30 docs): 0
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 40 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 40 docs): 0
+  Number of successfully converted trees(track = 0; processed 40 docs): 0
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 50 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 50 docs): 0
+  Number of successfully converted trees(track = 0; processed 50 docs): 0
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 60 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 60 docs): 0
+  Number of successfully converted trees(track = 0; processed 60 docs): 0
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 70 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 70 docs): 0
+  Number of successfully converted trees(track = 0; processed 70 docs): 0
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 80 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 80 docs): 0
+  Number of successfully converted trees(track = 0; processed 80 docs): 0
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 90 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 90 docs): 0
+  Number of successfully converted trees(track = 0; processed 90 docs): 0
+  ===========
+  ===========
+  Number of wrong trees (track = 0; processed 100 docs): 0
+  Number of trees with leaves in wrong order (track = 0; processed 100 docs): 0
+  Number of successfully converted trees(track = 0; processed 100 docs): 0
+  ===========
+  
+  
+  
+  ===========
+  Number of wrong trees (track = 0): 0
+  Number of trees with leaves in wrong order (track = 0): 0
+  Number of successfully converted trees(track = 0): 2
+  Percentage of incorrect ones: 0.0
+  0 23
+  1 6
+  2 0
+  3 0
+  4 0
+  5 0
+  6 0
+  7 0
+  Extracted 6 out of 6 proposition arguments
+  Execution directory: output/sample_lexicon
+}
