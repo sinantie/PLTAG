@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Save runtime directory and find PLTAG directory
+OLDDIR="$PWD"
+SCRIPTDIR="$(dirname "$(readlink -f "$0")")"
+
 # Maximum memory (m for MBs, g for GBs)
 memory=7000m
 
@@ -47,6 +51,7 @@ lexiconPath=data/lexicon/Lexicon_wsj_0221_noSemantics_files/Lexicon_wsj_0221_noS
 # Parameter files suffix
 paramsSuffix=txt.final
 
+cd $SCRIPTDIR
 cd ..
 java -Xmx${memory} -cp bin/PLTAG.jar:lib/Helper.jar:lib/commons-collections4-4.0-alpha1.jar:lib/stanford-corenlp-3.5.1.jar:stanford-corenlp-3.5.1-models.jar:lib/concurrentlinkedhashmap-lru-1.4.jar \
 pltag.runtime.Parse \
@@ -77,4 +82,4 @@ pltag.runtime.Parse \
 -outputExampleFreq 10 \
 -outputFullPred
 
-cd scripts
+cd $OLDDIR
