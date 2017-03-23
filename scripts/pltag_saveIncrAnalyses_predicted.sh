@@ -65,7 +65,7 @@ lexiconPath=data/lexicon/Lexicon_wsj_0221_withSemantics_tracesFix_files/Lexicon_
 paramsSuffix=txt.final
 
 cd ..
-java -Xmx${memory} -cp bin/PLTAG.jar:lib/Helper.jar:lib/commons-collections4-4.0-alpha1.jar:lib/stanford-corenlp-3.5.1.jar:stanford-corenlp-3.5.1-models.jar:lib/concurrentlinkedhashmap-lru-1.4.jar:lib/liblinear-1.94.jar \
+java -Xmx${memory} -cp bin/PLTAG.jar:lib/Helper.jar:lib/commons-collections4-4.1.jar:lib/stanford-corenlp-3.5.1.jar:stanford-corenlp-3.5.1-models.jar:lib/concurrentlinkedhashmap-lru-1.4.jar:lib/liblinear-1.94.jar \
 pltag.runtime.Parse \
 -numThreads $numThreads \
 -create \

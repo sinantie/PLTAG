@@ -16,7 +16,7 @@ inputPath=input/single_wsj_00_sample
 beamSize=400
 
 cd ..
-java -Xmx${memory} -cp bin/PLTAG.jar:lib/Helper.jar:lib/commons-collections4-4.0-alpha1.jar:lib/stanford-corenlp-3.5.1.jar:stanford-corenlp-3.5.1-models.jar \
+java -Xmx${memory} -cp bin/PLTAG.jar:lib/Helper.jar:lib/commons-collections4-4.1.jar:lib/stanford-corenlp-3.5.1.jar:stanford-corenlp-3.5.1-models.jar \
 pltag.runtime.Parse \
 -numThreads $numThreads \
 -train \

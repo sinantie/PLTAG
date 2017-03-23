@@ -25,7 +25,7 @@ You need to download the following files first and put them in the `lib/` folder
 * `stanford-corenlp-3.5.1.jar` and
 * `stanford-corenlp-3.5.1-models.jar` from the Stanford NLP Group [page](http://nlp.stanford.edu/software/corenlp.shtml#Download)
 * `liblinear-1.94.jar` from the LIBLINEAR [page](https://www.csie.ntu.edu.tw/~cjlin/liblinear/)
-* `commons-collections4-4.0-alpha1.jar` from the Apached Commons Collections Download [page](https://commons.apache.org/proper/commons-collections/download_collections.cgi)
+* `commons-collections4-4.1.jar` from the Apached Commons Collections Download [page](https://commons.apache.org/proper/commons-collections/download_collections.cgi)
 * `commons-math-2.2.jar` from the Apache Commons Math Download [page] (http://commons.apache.org/proper/commons-math/download_math.cgi)
 
 The PLTAG parser can be installed by simply extracting the contents of the zipped file into an empty folder.
