@@ -7,6 +7,37 @@
 ## -j JOBS: Number of threads to use. If set higher than 1 then sentences are going to be parsed in parallel
 ## -d: Estimate processing difficulty. If used, the parser generates syntactic surprisal, verification and combined scores per word
 
+# Input type. Currently supported types: plain, posTagged, pltag, dundee
+inputType=plain
+
+# Beam size
+beamSize=400
+
+# Nbest list size
+nBest=250
+
+# If set to true then the parser uses the provided gold POS tags (posTagged inputType and pltag), or
+# predicted ones, computed using the Stanford POS tagger
+goldPosTags=false
+
+## OUTPUT
+# If set to true then the parser generates prefix trees for each word.
+printIncrementalDeriv=false
+
+## EVALUATION
+# If set to true then the parser computes incremental evalb F1 scores
+evaluateIncrementalEvalb=false
+
+# Path and prefix to parameter files
+paramsPath=data/params/0221_noCountNoneAdj_final
+
+# Path and prefix to lexicon files
+lexiconPath=data/lexicon/Lexicon_wsj_0221_noSemantics_files/Lexicon_wsj_0221_noSemantics
+
+# Parameter files suffix
+paramsSuffix=txt.final
+
+## Script Runtime
 # Save runtime directory and find PLTAG directory
 OLDDIR="$PWD"
 SCRIPTDIR="$(dirname "$(readlink -f "$0")")"
@@ -60,40 +91,15 @@ else
     echo "Threading:" $numThreads "jobs"
 fi
 if [ $estimateProcDifficulty = 0 ]; then
-    estimateProcDifficulty=false
+    if [ $printIncrementalDeriv = true ]; then
+        echo 'Estimating PLTAG processing difficulty and printing incremental derivations'
+        estimateProcDifficulty=true
+    else
+        estimateProcDifficulty=false
+    fi
 else
     echo 'Estimating PLTAG processing difficulty'
 fi
-
-# Input type. Currently supported types: plain, posTagged, pltag, dundee
-inputType=plain
-
-# Beam size
-beamSize=400
-
-# Nbest list size
-nBest=250
-
-# If set to true then the parser uses the provided gold POS tags (posTagged inputType and pltag), or
-# predicted ones, computed using the Stanford POS tagger
-goldPosTags=false
-
-## OUTPUT
-# If set to true then the parser generates prefix trees for each word. NOTE you need to set estimateProcDifficulty=true as well.
-printIncrementalDeriv=false
-
-## EVALUATION
-# If set to true then the parser computes incremental evalb F1 scores
-evaluateIncrementalEvalb=false
-
-# Path and prefix to parameter files
-paramsPath=data/params/0221_noCountNoneAdj_final
-
-# Path and prefix to lexicon files
-lexiconPath=data/lexicon/Lexicon_wsj_0221_noSemantics_files/Lexicon_wsj_0221_noSemantics
-
-# Parameter files suffix
-paramsSuffix=txt.final
 
 cd $SCRIPTDIR
 cd ..

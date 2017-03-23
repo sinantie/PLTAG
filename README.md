@@ -131,7 +131,7 @@ PLTAG parser can be set to generate output in three different formats:
 
 The output format can be controlled by the two following parameters:
 * The `-d` commandline argument, which generates incremental processing complexity estimates
-* `printIncrementalDeriv`, generates prefix trees. NOTE you need to set `estimateProcDifficulty=true` as well.
+* `printIncrementalDeriv`, generates prefix trees. NOTE this automatically computes incremental difficulty (a la the `-d` commandline option)
 	
 NOTE that the full sentence parse trees is always printed at the end of each example sentence.  
 
@@ -146,7 +146,7 @@ There are also a few more options that can be set or unset (see at the bottom of
 
 * `interactiveMode`, sets the parser in interactive mode and accepts input from the console. Simply, enter tokenised sentences. This is the DEFAULT mode of PLTAG parser when no input file is specified.
 * `outputExampleFreq`, sets the frequency of outputting progress information at the stdout
-* `outputFullPred`, outputs difficulty scores (if `estimateProceDifficulty=true`), prefix trees, (if `printIncrementalDeriv=true`), and parse tree output. Normally, leave it on.
+* `outputFullPred`, outputs difficulty scores (if using `-d`), prefix trees, (if `printIncrementalDeriv=true`), and parse tree output. Normally, leave it on.
 
 The parser creates a folder as set in the `execDir` parameter, that contains at least the following files:
 * `info.map`		contains generic host information, such as hostname, number of CPU cores used, memory, etc.  
@@ -154,7 +154,7 @@ The parser creates a folder as set in the `execDir` parameter, that contains at 
 * `options.map`		contains all the options used by the parser along with a short description
 * `results.performance`	outputs log scores, accuracy, evalb, etc., depending on whether the user is evaluating against a gold standard file (pltag inputType only)
 * `results.evalb`		contains the incremental evalb F1 scores for each word (if `evaluateIncrementalEvalb=true`)
-* `test.full-pred-gen`	contains the output of the parser per example. If `estimateProcDifficulty=true` then it contains syntactic surprisal scores for each word and the syntactic tree of the full sentence in the end in Common LISP format.
+* `test.full-pred-gen`	contains the output of the parser per example. If using `-d` then it contains syntactic surprisal scores for each word and the syntactic tree of the full sentence in the end in Common LISP format.
 * `time.map`		outputs logging info on the amount of time it took to parse the input dataset
 
 #### 3.2.3 Incremental Semantic Role Labeling: iSRL
