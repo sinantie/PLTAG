@@ -25,7 +25,7 @@ You need to download the following files first and put them in the `lib/` folder
 * `stanford-corenlp-3.5.1.jar` and
 * `stanford-corenlp-3.5.1-models.jar` from the Stanford NLP Group [page](http://nlp.stanford.edu/software/corenlp.shtml#Download)
 * `liblinear-1.94.jar` from the LIBLINEAR [page](https://www.csie.ntu.edu.tw/~cjlin/liblinear/)
-* `commons-collections4-4.0-alpha1.jar` from the Apached Commons Collections Download [page](https://commons.apache.org/proper/commons-collections/download_collections.cgi)
+* `commons-collections4-4.1.jar` from the Apached Commons Collections Download [page](https://commons.apache.org/proper/commons-collections/download_collections.cgi)
 * `commons-math-2.2.jar` from the Apache Commons Math Download [page] (http://commons.apache.org/proper/commons-math/download_math.cgi)
 
 The PLTAG parser can be installed by simply extracting the contents of the zipped file into an empty folder.
@@ -88,17 +88,22 @@ pltag_generative_train.sh
 In order to parse with the generative PLTAG model you need to either use the extracted lexicon found under data/lexicon or the one extracted using the process described above.  
 To parse you simply have to run the script:
 ```
-pltag_parser.sh 
+pltag_parser.sh -o OUTPUTDIR
 ```
 
-There are various options you need to change in the script to accommodate your needs, including the input, output directories, etc.  
-More specifically:  
-* `memory`, corresponds to the maximum heap size allocated to the JVM
-* `numThreads`, is the number of threads to use. When set higher than 1, then multiple threads will be spawned to parse each sentence.
-* `execDir`, refers to the output execution directory
-* `inputPath`, is the path to the file containing sentences to be parsed
+where `OUTPUTDIR` is the path to the output directory
+
+There are various standard options you can specify from the commandline to accommodate your needs, including the input, output directories, etc.  
+More specifically:
+* `-m MEM`, is the maximum heap size allocated to the JVM (default: `8g`; m for megabytes and g for gigabytes)
+* `-j JOBS`, is the number of threads to use (default: `2`)
+* `-i INPUTFILE`, is the path to the file containing tokenized sentences to be parsed (default: stdin)
+* `-d`, if specified, the parser will estimate syntactic surprisal (S), verification (IC) and combined (D) scores per word (default: `false`)
+
+There are also a number of variables within the pltag_parser.sh script, which can further adapt the parser to a desired purpose:
+
 * `inputType`, can take one out of four choices: `plain`, `posTagged`, `pltag` and `dundee`. 
-  * `plain` reads tokenised sentences in the input file
+  * `plain` (default) reads tokenised sentences in the input file
   * `posTagged` reads tab-delimited tokenised sentences, that consist of POS-tag word pairs, e.g., `DT The	NN player ...`
   * `pltag` reads sentences in the following format:
 ```  
@@ -110,10 +115,10 @@ More specifically:
   * dundee reads tokenised sentences, that consist of word-id pairs	
 	See the accompanying examples in the input folder.  
 
-* `goldPosTags`, uses the provided POS-tags in the input (`posTagged` and `pltag` inputType) or uses the Stanford POS tagger on the input sentence (`plain`, and `dundee` inputType) 
+* `goldPosTags`, (default: `false`) uses the provided POS-tags in the input (`posTagged` and `pltag` inputType) or uses the Stanford POS tagger on the input sentence (`plain`, and `dundee` inputType) 
 instead of predicting them	
-* `beamSize`, refers to the beam size of the parser. Higher values generally increase performance, but require more memory and slow down the parser. `400` is the default value.
-* `nBest` is the number of n-best lists to store at each chart cell. `250` is the default value
+* `beamSize`, (default: `400`) refers to the beam size of the parser. Higher values generally increase performance, but require more memory and slow down the parser.
+* `nBest` (default: `250`) is the number of n-best lists to store at each chart cell.
 * `paramsPath`, is the path to the probability model parameters, trained using the script `pltag_generative_train.sh`.
 * `lexiconPath`, is the path to the lexicalised and prediction trees, extracted as explained above in the 'Extract PLTAG Lexicon and Gold standard PLTAG trees' section.
 
@@ -125,23 +130,23 @@ PLTAG parser can be set to generate output in three different formats:
 * full sentence parse tree.
 
 The output format can be controlled by the two following parameters:
-* `estimateProcDifficulty`, generates syntactic surprisal, verification and combined scores per word
-* `printIncrementalDeriv`, generates prefix trees. NOTE you need to set `estimateProcDifficulty=true` as well.
+* The `-d` commandline argument, which generates incremental processing complexity estimates
+* `printIncrementalDeriv`, generates prefix trees. NOTE this automatically computes incremental difficulty (a la the `-d` commandline option)
 	
 NOTE that the full sentence parse trees is always printed at the end of each example sentence.  
 
 In terms of evaluation the parser can automatically compute model log score, sentence F1, evalb F1, and incremental evalb F1 scores.  
 NOTE that you need:  
-* an input file that contains gold standard input trees (inputPath parameter), 
+* an input file that contains gold standard input trees (specified via `-i` commandline argument), 
 * and to set the inputType parameter to 'pltag'.
 Incremental evalb F1 scores are computed when:
 * `evaluateIncrementalEvalb=true`
 
 There are also a few more options that can be set or unset (see at the bottom of the script) that enable a couple more output-related functionalities to the parser:
 
-* `interactiveMode`, sets the parser in interactive mode and accepts input from the console. Simply, enter tokenised sentences. This is the DEFAULT mode of PLTAG parser.
+* `interactiveMode`, sets the parser in interactive mode and accepts input from the console. Simply, enter tokenised sentences. This is the DEFAULT mode of PLTAG parser when no input file is specified.
 * `outputExampleFreq`, sets the frequency of outputting progress information at the stdout
-* `outputFullPred`, outputs difficulty scores (if `estimateProceDifficulty=true`), prefix trees, (if `printIncrementalDeriv=true`), and parse tree output. Normally, leave it on.
+* `outputFullPred`, outputs difficulty scores (if using `-d`), prefix trees, (if `printIncrementalDeriv=true`), and parse tree output. Normally, leave it on.
 
 The parser creates a folder as set in the `execDir` parameter, that contains at least the following files:
 * `info.map`		contains generic host information, such as hostname, number of CPU cores used, memory, etc.  
@@ -149,7 +154,7 @@ The parser creates a folder as set in the `execDir` parameter, that contains at 
 * `options.map`		contains all the options used by the parser along with a short description
 * `results.performance`	outputs log scores, accuracy, evalb, etc., depending on whether the user is evaluating against a gold standard file (pltag inputType only)
 * `results.evalb`		contains the incremental evalb F1 scores for each word (if `evaluateIncrementalEvalb=true`)
-* `test.full-pred-gen`	contains the output of the parser per example. If `estimateProcDifficulty=true` then it contains syntactic surprisal scores for each word and the syntactic tree of the full sentence in the end in Common LISP format.
+* `test.full-pred-gen`	contains the output of the parser per example. If using `-d` then it contains syntactic surprisal scores for each word and the syntactic tree of the full sentence in the end in Common LISP format.
 * `time.map`		outputs logging info on the amount of time it took to parse the input dataset
 
 #### 3.2.3 Incremental Semantic Role Labeling: iSRL
